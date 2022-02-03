@@ -15,7 +15,6 @@ public class IntelliJDeodorantLoggerProvider extends StatisticsEventLoggerProvid
     @Override
     public boolean isRecordEnabled() {
         return !ApplicationManager.getApplication().isUnitTestMode() &&
-                Registry.is("feature.usage.event.log.collect.and.upload") &&
                 StatisticsUploadAssistant.isCollectAllowed();
     }
 

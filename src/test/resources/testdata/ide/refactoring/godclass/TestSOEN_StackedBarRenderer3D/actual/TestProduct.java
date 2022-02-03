@@ -5,11 +5,10 @@ import org.jfree.data.DataUtilities;
 import org.jfree.data.category.CategoryDataset;
 
 import java.awt.*;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestProduct implements Serializable {
+public class TestProduct {
     private boolean ignoreZeroValues;
 
     public boolean getIgnoreZeroValues() {

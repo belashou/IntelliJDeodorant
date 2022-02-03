@@ -1,3 +1,12 @@
+<h1>Changes to the original repository</h1>
+
+- Gradle updated to 7.3.3 (latest)
+- IntelliJ plugin updated to 1.3.1 (latest)
+- Added compatibility with **IntelliJ IDEA 2021.2.4** (latest)
+- Fixed a couple of tests, however a couple is failing because of differences in Intellij refactoring engine (TBD)
+- Migrated to Java 11 tests and removed Mock SDK binaries
+- No runtime exceptions 🙂
+
 <h1> <img align="left" width="50" height="50" src="https://s3-eu-west-1.amazonaws.com/public-resources.ml-labs.aws.intellij.net/static/intellij-deodorant/icon.svg" alt="IntelliJDeodorant Icon"> IntelliJDeodorant </h1>
 
 [![JB Research](https://jb.gg/badges/research-flat-square.svg)](https://research.jetbrains.org/)
